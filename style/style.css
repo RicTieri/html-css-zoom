@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: black;
+  color: white;
+}
+
+.topbar{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button{
+  background-color: #4a4a4a;
+  border-radius: .4rem;
+  padding: 0 .5rem;
+  margin: .5rem;
+}
