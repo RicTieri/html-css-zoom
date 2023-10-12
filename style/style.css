@@ -9,7 +9,7 @@ body{
   color: white;
 }
 
-.main{
+main{
   overflow-y: auto;
 }
 
@@ -19,7 +19,7 @@ body{
   width: 100%;
 }
 
-.button{
+.button-top{
   background-color: #4a4a4a;
   border-radius: .4rem;
   padding: .1rem .5rem;
@@ -28,9 +28,11 @@ body{
 }
 
 .container{
+  height: 85vh;
   width: 91%;
-  margin: 3rem auto;
+  margin: 2rem auto 0;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -51,4 +53,38 @@ body{
   font-size: .7rem;
   padding: .1rem .3rem;
   background-color: rgba(0, 0, 0, 0.4);
+}
+
+.user-control-button,
+.meet-control-button,
+.meet-exit-button{
+  display: flex;
+  padding: 1rem;
+  font-size: .8rem;
+}
+
+.interaction{
+  background-color: #222222;
+  margin: 0 .5rem;
+  position: fixed;
+  width: 99%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.interaction i{
+  font-size: 1.6rem;
+} 
+
+.menu i{
+  padding: 1rem;
+  font-size: .1rem;
+} 
+
+.button{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
