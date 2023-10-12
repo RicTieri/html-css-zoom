@@ -60,7 +60,7 @@ main{
 .meet-exit-button{
   display: flex;
   padding: 1rem;
-  font-size: .8rem;
+  font-size: .7rem;
 }
 
 .interaction{
@@ -75,6 +75,7 @@ main{
 
 .interaction i{
   font-size: 1.6rem;
+  padding-bottom: .2rem;
 } 
 
 .menu i{
@@ -87,4 +88,15 @@ main{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0 .5rem;
+}
+
+.button-green i{
+  color: green;
+}
+
+.meet-exit-button{
+  color: red;
+  background-color: #4a4a4a;
+  padding: 2rem;
 }
